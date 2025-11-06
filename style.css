@@ -388,7 +388,7 @@ form .btn2{
 nav .fas{
   display: none;
 }
-@media only screen and (max-width: 600px ){
+@media only screen and (max-width: 768px ){
   #header{
     background-image: url(Untitled-1.jpg);
   }
@@ -450,16 +450,14 @@ nav .fas{
   }
 }
 /* --------css for tablet-------- */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* keep background steady and text left-aligned */
-  /* Menu toggle icons base style */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+
 nav .fas {
   color: white;
   font-size: 25px;
   cursor: pointer;
 }
 
-/* Default hide of sidebar menu (for small & tablet) */
 #sidemenu {
   position: fixed;
   top: 0;
@@ -472,12 +470,10 @@ nav .fas {
   z-index: 100;
 }
 
-/* Sidebar open state */
 #sidemenu.open {
   right: 0;
 }
 
-/* Close icon inside menu */
 #sidemenu .fa-times {
   position: absolute;
   top: 25px;
@@ -485,7 +481,6 @@ nav .fas {
   cursor: pointer;
 }
 
-/* Hide close icon when not needed */
 #sidemenu .fa-times {
   display: block;
 }
@@ -509,7 +504,6 @@ nav .fas {
     line-height: 1.2;
   }
 
-  /* Navigation menu */
   nav .fas {
     display: block;
     font-size: 28px;
@@ -539,7 +533,6 @@ nav .fas {
     cursor: pointer;
   }
 
-  /* About section */
   .sub-title {
     font-size: 50px;
     text-align: center;
@@ -564,7 +557,6 @@ nav .fas {
     margin-right: 20px;
   }
 
-  /* Services and Portfolio */
   .services-list,
   .work-list {
     grid-template-columns: 1fr;
@@ -576,7 +568,6 @@ nav .fas {
     text-align: center;
   }
 
-  /* Contact section */
   .contact-left,
   .contact-right {
     flex-basis: 100%;
@@ -591,9 +582,8 @@ nav .fas {
 
 /* --------css for laptop and pc-------- */
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1201px) {
 
-  /* full navbar */
   
 
   nav .fas {
