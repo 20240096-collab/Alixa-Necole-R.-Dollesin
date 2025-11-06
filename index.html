@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0c46cad7f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1>Web Portfolio</h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class=" fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>BSIT2 - B3</p>
+        <h1>Hi, I'm <strong>Alixa R. Dollesin. </strong><br>  Your Future Software Engineer.</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------about-------- -->
+
+  
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="9d9aa12d-9e9b-4a70-b304-6a9dd5ea65e3-fotor-bg-remover-20251029163640.png" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am 19 years old. I am aspiring to be a future software engineer who is focused on learning and improving my technical skills. I study how programs work and how to create efficient and reliable software. My goal is to develop applications that are useful and easy to use. I am dedicated to learning programming languages, algorithms, and system design. I aim to build a strong foundation in both front-end and back-end development. I value logic, organization, and problem-solving in every project I work on. I want to apply what I learn to real-world situations and contribute to the growth of technology. As a future software engineer, I am committed to continuous learning and improvement to achieve success in my chosen field.</p>
+
+        <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+        <p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+        <p class="tab-links" onclick="opentab('Eduction')">Education</p>
+        <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+          <p class="tab-links" onclick="opentab('Awards')">Awards</p>
+      </div>
+      <div class="tab-contents active-tab " id="skills">
+        <ul>
+          <li><span>Programming</span><br>Writing and understanding basic code using languages like Python and C++</li>
+          <li><span>Web Development</span><br> Creating and maintaining basic website using HTML, CSS and JavaScript</li>
+          <li><span>Database Management</span><br>Managing and Organizing basic data using MySQL or XAMPP<li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="Experience">
+        <ul>
+          <li><span>Group System Projects</span><br>Worked with classmates t design and develop small systems for academic purposes. Shared tasks such as coding, docuemtnation, and presentation</li>
+          <li><span>Mini Project - Student Information System</span><br> Created a simple database system using PHP and MySQL.</li>
+          <li><span>Web Development Practice</span><br> Built a sample web pages using HTML, CSS, and JavaScript to improve coding and design skills<li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="Eduction">
+        <ul>
+          <li><span>2012 - 2017</span><br> Mamala Elementary School</li>
+          <li><span>2018 - 2021</span><br> Mamala Intergrated School</li>
+          <li><span>2022 - 2023</span><br> <strong>CSTC</strong> College of Sciences, Technology and Communications, Inc.<li>
+          <li><span>2024 - Current</span><br> <strong>CSTC</strong> College of Sciences, Technology and Communications, Inc.<li></li>
+        </ul>
+      </div>
+      <div class="tab-contents " id="Hobbies">
+        <ul>
+          <li><span>Listening to Music</span><br>Listening to music while studying or coding to stay focused and inspired</li>
+          <li><span>Gaming</span><br>Playing online games to relax and improve focus-</li>
+          <li><span>Sleeping</span><br>Getting enough rest to recharge and stay prodctive<li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="Awards">
+        <ul>
+          <li><span>Consistent Honor Student</span><br> Recognized as an honor from high school up to cllege for maintaining strong academic performance</li>
+          <li><span>Congressinal Meet Athlete - Javelin Throw</span><br> Represented my old school and made it in the congressional meet for javelin throw</li>
+          <li><span>Mathraton Participant</span><br> Joined school mathraton numerus times and won some awards <li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- --------services-------- -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">Future Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-cloud-arrow-up"></i>
+        <h2>Software Development</h2>
+        <p>Creating and mainiting computer programs or applications based client or projects needs</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>Mobile App Development</h2>
+        <p>Developing apps for Andoid or IOS platforms that provide specfic features or services</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-pen-fancy"></i>
+        <h2>Web Development</h2>
+        <p>Designing and building website or web-based systems using front-end and back-end technologies</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- --------portfolio-------- -->
+
+
+<div id="portfolio">
+  <div class="container">
+      <h1 class="sub-title">Future Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Colab for Team Coding.webp" height="500px" width="50px">
+          <div class="layer">
+            <h3>System Analysis and Develoipment</h3>
+            <p>This is a project for the second semester that consist of 3 person per group.</p>
+            <a href="#">Coming soon</a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="app.jpg" height="500px" width="50px">
+          <div class="layer">
+            <h3>Digital App Design</h3>
+            <p>Creating app that involves planning layouts, choosing colors, and designing features.</p>
+            <a href="#">Coming Soon</a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="ojt.jpg" height="500px" width="50px" >
+          <div class="layer">
+            <h3>On-The-Job Training</h3>
+            <p>It's a program where student gain real work experience related to their course</p>
+            <a href="#">Coming soon</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- --------contact-------- -->
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> alexanecoledollesin@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 09167161867</p>
+        <div class="soical-icons">
+          <a href="https://www.facebook.com/nicolumbos/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/xelaxale?igsh=bTkyOTBzMno2bGdr"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://discord.com/users/915262559735660604"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://www.x.com/"><i class="fa-brands fa-twitter-square"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemeu.style.right = "0";
+
+  }
+  function closemenu(){
+    sidemeu.style.right = "-200px";
+    
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwqKsJlPEURMktLD3nTi4C-Ut--ox6sASdB2UzBRQ8CBrQCtIfFvtKKHAJgOiL_DNr4/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
